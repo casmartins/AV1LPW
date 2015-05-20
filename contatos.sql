@@ -1,8 +1,7 @@
 
 SET FOREIGN_KEY_CHECKS=0;
--- ----------------------------
--- Table structure for users
--- ----------------------------
+ 
+
 CREATE TABLE `contatos` (
   `id` int(11) NOT NULL auto_increment,
   `nome` varchar(50) default NULL,
@@ -11,9 +10,8 @@ CREATE TABLE `contatos` (
   `email` varchar(200) default NULL,
   PRIMARY KEY  (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
--- ----------------------------
--- Records 
--- ----------------------------
+
+
 INSERT INTO `contatos` VALUES ('1', 'José', 'Santana', '(21)99999-9999', 'zesantana@gmail.com');
 INSERT INTO `contatos` VALUES ('2', 'Andre', 'Ribeiro', '(21)99898-9877', 'aribeiro@gmail.com');
 INSERT INTO `contatos` VALUES ('3', 'Leonardo', 'Prado', '(21)97788-0990', 'leoprado@gmail.com');
