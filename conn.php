@@ -7,4 +7,3 @@ if (!$conn) {
 mysql_select_db('contatos', $conn);
 
 ?>
-
