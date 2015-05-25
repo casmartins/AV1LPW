@@ -2,7 +2,7 @@
 
 $conn = @mysql_connect('localhost','root','');
 if (!$conn) {
-	die('Não foi possível Conectar: ' . mysql_error());
+	die('Could not connect: ' . mysql_error());
 }
 mysql_select_db('contatos', $conn);
 
